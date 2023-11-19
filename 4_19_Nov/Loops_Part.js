@@ -6,7 +6,7 @@
 //     console.log(my_array[index])
 // }
 
-let number=1
+//let number=1
 // for(number;number<5;number++)
 // {
 //     if(number>3)
@@ -39,9 +39,9 @@ let number=1
 //        console.log(number)
 // }
 
-for(number;number<5;number++)
+for(let number=1;number<8;number++)
 {
-    if(number>3)
+    if(number>=3)
        continue
     else
        console.log(number)
