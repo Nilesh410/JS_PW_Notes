@@ -84,8 +84,12 @@ console.log(name1.concat(" ",name2))
     Strings are immutable: Strings cannot be changed, only replaced.
 */
 
+/* 7) String trim method 
+    trim()-> trim method remove the whtie spaces from start and end in the given string
+*/
 let new_string1="   Hello Everyone   "
 console.log(new_string1.trim())
-
+console.log(new_string1.trimEnd())
+console.log(new_string1.trimStart())
 
 
