@@ -59,3 +59,33 @@ let new_str="I love India"
 console.log(new_str.replace("India","Maha"))
 console.log(new_str.replace(/INDIA/i,"Maha"))
 
+/*4) Replace All Method */
+console.log(str1.replaceAll("ABC","LMN"))
+
+/* 5) Converting Uppercase and Lowercase 
+    A string is converted to upper case with toUpperCase():
+    A string is converted to lower case with toLowerCase():
+*/
+let name1="nilesh suresh shirude"
+let name2="RIDANT NILESH SHIRUDE"
+console.log(name1.toUpperCase()) //its do not change the original string
+console.log(name1)
+console.log(name2.toLowerCase())
+
+/* 6)Concatenate of a strings
+By using concat() joins two or more strings:
+The concat() method can be used instead of the plus operator.
+*/
+console.log(name1.concat(" ",name2))
+
+/*Note
+    All string methods return a new string. They don't modify the original string.
+    Formally said:
+    Strings are immutable: Strings cannot be changed, only replaced.
+*/
+
+let new_string1="   Hello Everyone   "
+console.log(new_string1.trim())
+
+
+
