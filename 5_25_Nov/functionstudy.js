@@ -38,3 +38,31 @@ function sumOf3Nubmber(num1,num2,num3)
     return (num1+num2+num3)
 }
 console.log(sumOf3Nubmber(6,3,4))
+
+//Addition of any n number of argument
+
+//Using spread operator
+
+function sumOfany(...numbers)
+{
+    let sum=0
+    for(let i=0;i<numbers.length;i++){
+            sum+=numbers[i]
+        }
+        return sum   
+}
+console.log(sumOfany(3,4,5))
+console.log(sumOfany())
+
+//Using arguments or argument array
+function sumofargument()
+{
+    console.log(arguments)
+    let sum=0
+    for(let i=0;i<arguments.length;i++){
+            sum+=arguments[i]
+        }
+        return sum
+}
+console.log(sumofargument(3,2,3))
+console.log(sumofargument())
