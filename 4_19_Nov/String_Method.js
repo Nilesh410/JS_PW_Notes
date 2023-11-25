@@ -37,7 +37,25 @@ console.log(username.substr(2))//lesh Suresh Shirude
 console.log(username.substr(-2))//de
 console.log(username.substr(-2,-1))//it does not show anything length should not be negative
 
-/* 3) 
+/* 3) Replace String Method
+    replace()-->
+        The replace() method replaces a specified value with another value in a string
+    Note:->
+    The replace() method does not change the string it is called on.
+    The replace() method returns a new string.
+    The replace() method replaces only the first match
+    If you want to replace all matches, use a regular expression with the /g flag set. 
+    By default, the replace() method is case sensitive. Writing MICROSOFT (with upper-case) will not work:
+    To replace case insensitive, use a regular expression with an /i flag (insensitive):
+    To replace all matches, use a regular expression with a /g flag (global match):
+*/
 
-
+let str1="ABC PQR XYZ ABC"
+let str2=str1.replace('A','B')
+console.log(str2) //BBC PQR XYZ ABC
+console.log(str1.replace("ABC","LMN"))//LMN PQR XYZ ABC
+console.log(str1.replace(/ABC/g,"LMN"))
+let new_str="I love India"
+console.log(new_str.replace("India","Maha"))
+console.log(new_str.replace(/INDIA/i,"Maha"))
 
