@@ -6,12 +6,14 @@ function palindromeCheck(str)
     {
         reverseString+=str.charAt(i)
     }
-    if(str===reverseString)
-     {
-         return "Given string is a palindrome"
-     }
-     else{
-        return "Given string is not a palindrome"
-     }
+    // if(str===reverseString)
+    //  {
+    //      return "Given string is a palindrome"
+    //  }
+    //  else{
+    //     return "Given string is not a palindrome"
+    //  }
+
+    
 }
 console.log(`${givenString} : `,palindromeCheck(`${givenString}`))
