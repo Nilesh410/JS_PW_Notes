@@ -1,0 +1,15 @@
+Function :- function is a wrap of code or statement that perform certain task or operation.
+
+Console.log=>
+
+
+*Argument and Parameter to function :-
+        function defintion -> Parameter
+        function calling -> Argument
+
+=> Variable Argument:- 
+   1) Argument Object 
+   2) Spread Operator
+
+=> Function Expression 
+
