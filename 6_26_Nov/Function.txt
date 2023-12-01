@@ -43,4 +43,27 @@ Console.log=>
 
 =>Difference between function decleration and function expression?
   -> scopinng mechanism is Difference
-  
+
+=> Type of Function Expression
+  1) named function expression  
+
+      const isEvenOdd=function process(num){
+        return (num%2==0)
+      }
+     const result=process(23)
+      console.log(result)
+  2) ananymous function expression
+
+      const isEvenOdd=function (num){
+        return (num%2==0)
+      }
+      const result=isEvenOdd(23)
+      console.log(result)
+
+  3) IIFE (Immediately Invoked Function Expression)  
+
+=> Why Named Function Expression is important
+
+   1)Debugging 
+   2)Recursion
+   3)Readability
