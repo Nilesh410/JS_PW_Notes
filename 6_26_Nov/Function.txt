@@ -65,5 +65,10 @@ Console.log=>
 => Why Named Function Expression is important
 
    1)Debugging 
+     -> we can easilt debug the code at what order we call the function by using console.trace
    2)Recursion
+      -> call stack 
    3)Readability
+      -> any one can easily read the code 
+
+=> Dont use function ananymous passing an argument that time used named function expression
