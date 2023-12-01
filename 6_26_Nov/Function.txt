@@ -12,4 +12,35 @@ Console.log=>
    2) Spread Operator
 
 => Function Expression 
+ -> why we need it ?
+ -> How to identify if a function within function is decleration or Expression
 
+=> Why in JS we consider function as a first class citizen?
+  -> you can store the function 
+  -> you can pass an Argument
+  -> return function from function 
+
+=> function Decleration or expression:
+ ->defintion:- if the first valid word is not function in a statement then it is function expression
+
+   const h=function functionname()
+   {
+    //this is function expression
+   }
+
+   function functionname()
+   {
+     //this is function decleration
+   }
+
+   (function (){
+     //function expression
+   })()
+
+   (function exc(){
+        //function expression
+   })
+
+=>Difference between function decleration and function expression?
+  -> scopinng mechanism is Difference
+  
