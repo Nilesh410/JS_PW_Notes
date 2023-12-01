@@ -72,3 +72,10 @@ Console.log=>
       -> any one can easily read the code 
 
 => Dont use function ananymous passing an argument that time used named function expression
+
+   -> function isEvenodd(10,function process())
+   {
+        console.log("   ")
+        console.trace("Trace the function );
+   }
+ => ananymous function expression cant not trace the debugging   
