@@ -20,3 +20,7 @@ processArray([2,3,4,1,5],function cube(x){return x*x*x })
 //ProcessArray()-> it is an higher ofer function
 // Higher Order Function:- A function that takes one or more function as argument
 //Call back :- callback is function which is an actual argument to HOF and is passed as argument to function 
+
+// One imp use of callback=>
+// ther cases when the execution of fucntion complete in future, what should 
+//we do can be controlled by callback
