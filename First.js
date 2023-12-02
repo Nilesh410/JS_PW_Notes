@@ -24,3 +24,26 @@ processArray([2,3,4,1,5],function cube(x){return x*x*x })
 // One imp use of callback=>
 // ther cases when the execution of fucntion complete in future, what should 
 //we do can be controlled by callback
+
+/*
+ =>  In built function
+     ->JS give us access to some already built in function 
+     e.g. math.script, foreach, map etc
+     
+=> Homework-> why console.log is not part of Ecmascript part
+
+=>Because function are first class citizen, u can also return the function 
+*/
+
+function fun(){
+    console.log("called te function fun")
+    return function cleanUp(){ //function expression
+        console.log("Cleaning up the resources")
+    }
+}
+const result=fun()
+console.log(result)
+console.log(result())
+result()
+//result store the function return by fun i.e. cleanup
+
