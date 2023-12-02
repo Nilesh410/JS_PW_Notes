@@ -46,4 +46,31 @@ console.log(result)
 console.log(result())
 result()
 //result store the function return by fun i.e. cleanup
+/*
+IIFL: Immediately Invoked Function Expression
+-> Meaning IIFE is that the moment is define the function expression 
+it is immediately execute and can not be access anywhere in the program
+*/
 
+function downloadScript(){
+    console.log("old function")
+}
+downloadScript();
+//new function call due to function hoisting
+
+(function downloadScript(){
+    console.log("new function")
+})()
+
+downloadScript();
+
+const x=10;
+console.log(x)
+
+function xyz()
+{
+    x=20;
+    console.log(x)
+}
+xyz()
+console.log(x)
