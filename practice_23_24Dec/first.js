@@ -7,3 +7,15 @@ const result=arr.forEach((ele)=>{
     return ele
 })
 console.log(result)
+/**
+ * Map function :- it go to the every element of array and apply to the call back and 
+ * execute the call back function. But different from for each. 
+ * Its return something, it's picks the each reuturn statement value from call back function
+ * and put into the new array
+ */
+console.log("Map method result:")
+const result1=arr.map((ele)=>{
+    console.log("array ele:",ele)
+    return ele*ele
+})
+console.log(result1)
