@@ -16,6 +16,6 @@ console.log(result)
 console.log("Map method result:")
 const result1=arr.map((ele)=>{
     console.log("array ele:",ele)
-    return ele*ele
+    //return ele*ele
 })
 console.log(result1)
