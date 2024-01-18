@@ -10,11 +10,17 @@ let data=[
 {"id":9,"first_name":"Boycie","last_name":"Monkleigh","email":"bmonkleigh8@prweb.com","gender":"Male","ip_address":"148.79.83.101"},
 {"id":10,"first_name":"Almeta","last_name":"Widdison","email":"awiddison9@scribd.com","gender":"Female","ip_address":"181.130.137.243"}]
 
-console.log(data) //show the complete array of object data
+//console.log(data) //show the complete array of object data
+console.log("Only name of employee")
 let first_name_array=data.map(emp =>{   
     return emp.first_name   // u can return any one of the property of each object present in the array  
  })
 //map fun is capable to go to every element of the array and apply on call back function, fixed the
 //value on each return statement and puts in a new array
-console.log(first_name_array)
+//console.log(first_name_array)
 
+let show_specific_data=data.filter((emp)=>{
+    return emp.gender==="Female"
+})
+
+console.log(show_specific_data)
