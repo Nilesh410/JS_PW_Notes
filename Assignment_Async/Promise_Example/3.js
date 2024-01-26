@@ -1,0 +1,1 @@
+Promise.reject('Error occurred').catch(err => console.log(err));
